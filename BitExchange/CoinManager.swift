@@ -17,4 +17,27 @@ struct CoinManager {
     func getCoinPrice(for currency: String) {
         
     }
+    
+    func fetchCoin(currencyName: String) {
+        let urlString = "\(baseURL)/\(currencyName)?apikey=\(apiKey)"
+        performRequest(witg: urlString)
+    }
+    
+    func performRequest(witg urlString: String) {
+        if let url = URL(string: urlString) {
+            let session = URLSession(configuration: .default)
+            
+            let task = session.dataTask(with: url) { (data, response, error) in
+                if error != nil {
+                    print(error!)
+                    return
+                }
+                
+                
+            }
+            
+            task.resume()
+        }
+        
+    }
 }
