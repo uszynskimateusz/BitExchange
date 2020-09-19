@@ -13,6 +13,7 @@
 		69B69E7F2515421D00D16682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B69E7D2515421D00D16682 /* Main.storyboard */; };
 		69B69E812515422000D16682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B69E802515422000D16682 /* Assets.xcassets */; };
 		69B69E842515422000D16682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B69E822515422000D16682 /* LaunchScreen.storyboard */; };
+		69B69E8C2515491C00D16682 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E8B2515491C00D16682 /* CoinManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		69B69E802515422000D16682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B69E832515422000D16682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69B69E852515422000D16682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B69E8B2515491C00D16682 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		69B69E762515421D00D16682 /* BitExchange */ = {
 			isa = PBXGroup;
 			children = (
+				69B69E8B2515491C00D16682 /* CoinManager.swift */,
 				69B69E772515421D00D16682 /* AppDelegate.swift */,
 				69B69E792515421D00D16682 /* SceneDelegate.swift */,
 				69B69E7B2515421D00D16682 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B69E8C2515491C00D16682 /* CoinManager.swift in Sources */,
 				69B69E7C2515421D00D16682 /* ViewController.swift in Sources */,
 				69B69E782515421D00D16682 /* AppDelegate.swift in Sources */,
 				69B69E7A2515421D00D16682 /* SceneDelegate.swift in Sources */,
