@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690B7CAC2516353600872B75 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690B7CAB2516353600872B75 /* CoinData.swift */; };
 		69B69E782515421D00D16682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E772515421D00D16682 /* AppDelegate.swift */; };
 		69B69E7A2515421D00D16682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E792515421D00D16682 /* SceneDelegate.swift */; };
 		69B69E7C2515421D00D16682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B69E7B2515421D00D16682 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		690B7CAB2516353600872B75 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		69B69E742515421D00D16682 /* BitExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B69E772515421D00D16682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B69E792515421D00D16682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690B7CAF2516366100872B75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				690B7CAB2516353600872B75 /* CoinData.swift */,
+				69B69E8B2515491C00D16682 /* CoinManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		690B7CB02516367300872B75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E7B2515421D00D16682 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		690B7CB12516368A00872B75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69B69E7D2515421D00D16682 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		69B69E6B2515421D00D16682 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +85,11 @@
 		69B69E762515421D00D16682 /* BitExchange */ = {
 			isa = PBXGroup;
 			children = (
-				69B69E8B2515491C00D16682 /* CoinManager.swift */,
 				69B69E772515421D00D16682 /* AppDelegate.swift */,
 				69B69E792515421D00D16682 /* SceneDelegate.swift */,
-				69B69E7B2515421D00D16682 /* ViewController.swift */,
-				69B69E7D2515421D00D16682 /* Main.storyboard */,
+				690B7CAF2516366100872B75 /* Models */,
+				690B7CB12516368A00872B75 /* Views */,
+				690B7CB02516367300872B75 /* Controllers */,
 				69B69E802515422000D16682 /* Assets.xcassets */,
 				69B69E822515422000D16682 /* LaunchScreen.storyboard */,
 				69B69E852515422000D16682 /* Info.plist */,
@@ -143,6 +170,7 @@
 			files = (
 				69B69E8C2515491C00D16682 /* CoinManager.swift in Sources */,
 				69B69E7C2515421D00D16682 /* ViewController.swift in Sources */,
+				690B7CAC2516353600872B75 /* CoinData.swift in Sources */,
 				69B69E782515421D00D16682 /* AppDelegate.swift in Sources */,
 				69B69E7A2515421D00D16682 /* SceneDelegate.swift in Sources */,
 			);
